@@ -1,6 +1,5 @@
-# Sidewinder PCIe bridge-mode reference design with interrupt generation
+# Sidewinder minimal PCIe design
 
-A pre-compiled executable for bandwidth testing is in the folder "executables".
-Source code for that executable is in the folder "cpp".   Source code for a driver that allows handling of PCIe interrupts from userspace is in folder "driver"
+This design is useful for booting from SD in order to ensure that the Sidewinder is recognized as a PCIe device when the host PC powers up.
 
 ![Design Schematic](/image/design.png)
