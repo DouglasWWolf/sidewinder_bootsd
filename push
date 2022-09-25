@@ -8,7 +8,6 @@ git add ${folder}/${project}.sim
 git add ${folder}/${project}.srcs
 git add ${folder}/${project}.xpr
 
-git add cpp scripts executables driver
 git add src xdc image README.md push
 
 git commit -m "No commit message"
